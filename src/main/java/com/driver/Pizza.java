@@ -10,6 +10,71 @@ public class Pizza {
     private int toppings;
     private boolean ischeese;
     private boolean istoppings;
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public Boolean getVeg() {
+        return isVeg;
+    }
+
+    public void setVeg(Boolean veg) {
+        isVeg = veg;
+    }
+
+    public void setBill(String bill) {
+        this.bill = bill;
+    }
+
+    public int getCheese() {
+        return cheese;
+    }
+
+    public void setCheese(int cheese) {
+        this.cheese = cheese;
+    }
+
+    public int getToppings() {
+        return toppings;
+    }
+
+    public void setToppings(int toppings) {
+        this.toppings = toppings;
+    }
+
+    public boolean isIscheese() {
+        return ischeese;
+    }
+
+    public void setIscheese(boolean ischeese) {
+        this.ischeese = ischeese;
+    }
+
+    public boolean isIstoppings() {
+        return istoppings;
+    }
+
+    public void setIstoppings(boolean istoppings) {
+        this.istoppings = istoppings;
+    }
+
+    public boolean isIspapaerbag() {
+        return ispapaerbag;
+    }
+
+    public void setIspapaerbag(boolean ispapaerbag) {
+        this.ispapaerbag = ispapaerbag;
+    }
+
+    public boolean isIsbill() {
+        return isbill;
+    }
+
+    public void setIsbill(boolean isbill) {
+        this.isbill = isbill;
+    }
+
     private boolean ispapaerbag;
     private boolean isbill;
     public Pizza(Boolean isVeg){
