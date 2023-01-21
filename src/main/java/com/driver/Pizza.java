@@ -11,8 +11,8 @@ public class Pizza {
     private boolean ischeese;
     private boolean istoppings;
 
-    public void setPrice(int price) {
-        this.price = price;
+    public int setPrice(int price) {
+        return this.price;
     }
 
     public Boolean getVeg() {
